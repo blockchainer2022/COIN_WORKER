@@ -3,18 +3,25 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundColor: {},
+      colors: {
+        primary: "#55AA68",
+
+        dark: {
+          DEFAULT: "#202020",
+          400: "#353535",
+        },
+      },
+
       container: {
         center: true,
         padding: "1rem",
         screens: {
           lg: "1140px",
           xl: "1140px",
-          "2xl": "1320px",
         },
       },
       fontFamily: {
-        sans: ["Poppins", "sans-serif"],
+        sans: ["Work Sans", "sans-serif"],
       },
       textColor: {},
     },
